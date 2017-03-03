@@ -31,11 +31,12 @@ namespace SportsStore.WebUI.Infrastructure
             //绑定放在这
             //Mock<IProductRespository> mock = new Mock<IProductRespository>();
             //mock.Setup(m => m.Products).Returns(new List<Product>{
-            //    new Product{Name="Football",Price=25},
-            //    new Product{Name="Surf board",Price=179},
-            //    new Product{Name="Running shoes",Price=95}
+            //    new Product{Name="Football",Price=25,Category="Soccer",Description="Description0"},
+            //    new Product{Name="Surf board",Price=179,Category="Soccer",Description="Description1"},
+            //    new Product{Name="Running shoes",Price=95,Category="Soccer1",Description="Description2"}
             //});
             kernel.Bind<IProductRespository>().To<EFProductRepository>();
+            //kernel.Bind<IProductRespository>().ToConstant(mock.Object);
         }
        
     }

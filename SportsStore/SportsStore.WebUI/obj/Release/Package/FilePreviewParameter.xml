@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SportsStore" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\GitHubLocalProperty\\ASP\.NET-MVC-\\SportsStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\GitHubLocalProperty\\ASP\.NET-MVC-\\SportsStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SportsStore.Domain.Concrete.EFDbContext-Web.config Connection String" description="" value="SportsStore.Domain.Concrete.EFDbContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\GitHubLocalProperty\\ASP\.NET-MVC-\\SportsStore\\SportsStore\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SportsStore.Domain.Concrete.EFDbContext']/@connectionString" />
+  </parameter>
+</parameters>

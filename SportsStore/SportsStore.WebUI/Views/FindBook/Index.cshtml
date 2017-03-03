@@ -1,0 +1,19 @@
+﻿@model SportsStore.WebUI.Controllers.Book
+         
+  @if(Model!=null)
+{
+         @Model.author[0]
+        <br />
+        @Model.binding
+        <br />
+        @Model.isbn13
+        <br />
+        @Model.publisher
+        <br />
+        @Model.summary
+        <br />
+        @Model.title
+        <br />
+        <img src="@Model.images.large" />
+        <br />
+}
